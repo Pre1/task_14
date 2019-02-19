@@ -20,6 +20,8 @@ from django.conf.urls.static import static
 from restaurants import views
 from api.views import RestaurantListView
 
+# from rest_framework.generics import as_view
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     
